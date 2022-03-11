@@ -1,0 +1,73 @@
+<html>
+<head><title>Home page</title>
+<body>
+<style>
+div{
+width:400px;
+height:500px;
+background-color:#37a9a1;
+color:#ffeb3b;
+}
+label{
+color:#22fff5;
+}
+span{
+color:red;
+}
+.btn{
+color:#ff5722;
+}
+</style>
+<center>
+<div>
+<h2> Registration Form <h2>
+<table>
+<form enctype="multipart-form" action="img.html" method="post" >
+<tr>
+<td><label>First Name:</label><span>*</span></td>
+<td><input type="text" class="txt" placeholder="first name" readonly value="monish" required /></td>
+</tr>
+<tr>
+<td><label>Last Name:</label></td>
+<td><input type="text" class="txt" placeholder="last name"/></td>
+</tr>
+<tr>
+<td><label>Email:</label><span>*</span>:</td>
+<td><input type="email" class="alp" placeholder="mail" value="" required /></td>
+</tr>
+<tr>
+<td><label>Phone number:</label><span>*</span></td>
+<td><input type="text" class="no" placeholder="no" maxlength=10 size=10 pattern="[0-9]{10}" value="" required title="pls etr correct no"/></td>
+</tr>
+<tr>
+<td><label>Photo</label></td>
+<td><input type="file" class="ph" value="" multiple /></td>
+</tr>
+
+<tr>
+<td><label>Gender:</label></td>
+<td>Male<input type="radio" id="gen" value="1" />
+Female<input type="radio" id="gen" value="2"/></td>
+</tr>
+
+<tr>
+<td><label>Course:</label></td>
+<td><select multiple size =3>
+<option value=1>FE</option>
+<option value=2>BE</option>
+<option value=3>FS</option>
+<option value=4>Py</option><td/>
+</select></tr>
+
+<tr>
+<td><label>Course:</label></td>
+<td><textarea rows=10 cols=30></textarea></td>
+</tr>
+
+<tr>
+<td><input type="reset" class="btn" /></td>
+<td><input type="submit" class="btn"/></td>
+</tr>
+</div>
+</body>
+</html>

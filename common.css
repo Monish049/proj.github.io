@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 90px;
+  font-family: cursive;
+  background-image: url("img/21.jpg");
+}
+
+footer {
+  height: 90px;
+  font-family: cursive;
+  background-image: url("img/21.jpg");
+  text-shadow: 10px -10px 5px yellow;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  color: yellow;
+  text-shadow: 10px -10px 5px yellow;
+}
+
+nav {
+  height: 40px;
+  background-image: linear-gradient(to bottom, #0781ff, #a7b4bb);
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  margin-left: 90px;
+  padding: 7px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: 10px -10px 5px red;
+}
+
+section {
+  height: 400px;
+}
+
+article {
+  height: 400px;
+}
+
+article {
+  padding: 30px;
+  background-color: grey;
+  width: 60%;
+  float: left;
+  background-image: url("img/l.jpg");
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+article div {
+  float: left;
+  margin-left: 30px;
+  text-align: center;
+  color: white;
+}
+
+aside {
+  width: 15%;
+  height: 400px;
+  float: left;
+  filter: opacity(80%);
+  box-shadow: 10px 10px 6px orange;
+  padding: 20px;
+}
+
+#right-side {
+  box-shadow: -10px 10px 6px orange;
+  width: 25%;
+  padding: 10px;
+  background-color: #2196f3;
+}
+
+aside div {
+  filter: opacity(100%);
+  text-decoration: bolder;
+  background-color: lightblue;
+  height: 360px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 2%;
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+#left-side {
+  background-color: #2196f3;
+}
+
+h3 {
+  padding: 20px;
+}
+
+#d1 {
+  padding: 20px 0px 0px 0px;
+}
+
+li a:hover {
+  color: yellow;
+}
+
+@media screen and (max-width: 1200px) {
+  li {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  li {
+    margin-left: 60px;
+  }
+
+  #right-side {
+    display: none;
+  }
+
+  #left-side {
+    width: 30%;
+  }
+
+  article {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav,
+  li,
+  ul {
+    margin-left: 10px;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  #right-side {
+    display: none;
+  }
+
+  #left-side {
+    width: 30%;
+    font-size: 12px;
+  }
+
+  article {
+    width: 70%;
+    font-size: 12px;
+    padding: 20px 0px 0px 10px;
+  }
+
+  li a {
+    font-size: 12px;
+  }
+}
